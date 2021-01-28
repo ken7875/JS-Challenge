@@ -26,4 +26,4 @@ function getDate(){
     zoneResult.innerHTML = str  
 }
 
-setInterval("getDate()", 1000)
+setInterval(getDate, 1000)
