@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/bmi.css">
+</head>
+
+<body>
+    <div class="banner bg-dark">
+        <div class="container d-flex justify-content-center h-100 align-items-center">
+            <img src="https://raw.githubusercontent.com/gatesakagi/hexschoolJSHomeworkBMI/master/images/BMICLogoYellow.png"
+                alt="">
+            <div>
+                <div>
+                    <label for="height" class="text-primary w-100 mb-2">身高 cm</label>
+                    <input type="text" class="py-2 px-4 mb-4" id="height" placeholder="請輸入身高">
+                </div>
+                <div>
+                    <label for="weight" class="text-primary w-100 mb-2">體重 kg</label>
+                    <input type="text" class="py-2 px-4" id="weight" placeholder="請輸入體重">
+                </div>
+            </div>
+            <div class="button">
+                <div class="bg-primary rounded-circle font-xl w-100 h-100 d-flex align-items-center" id="getResult">
+                    <span class="seeRes mb-0 text-center w-100">看結果</span>
+                    <span class="resultText d-none"></span>
+                    <a href="#" class="reset d-none">
+                        <span class="material-icons font-sm text-white">cached</span>
+                    </a>
+                </div>
+            </div>
+            <div class="level"></div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <p class="text-center font-xl mt-5">BMI紀錄</p>
+            <ul class="record list-unstyled">
+            </ul>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="js/bmi.js"></script>
+</body>
+
+</html>
