@@ -8,3 +8,4 @@ Demo
 ------
 
 [時區](https://ken7875.github.io/JS-challenge/timeZone/time.html)
+[BMI計算](https://ken7875.github.io/JS-challenge/BMI-calculator/bmi.html)
