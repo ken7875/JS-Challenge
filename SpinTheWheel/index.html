@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="resultBar">
+            <h1 class="wellDone">WELL<br>DONE!</h1>
+            <div>
+                <h2>YOU GET A FREE...</h2>
+                <div class="prizeName"></div>
+            </div>
+        </div>
+        <div class="wheel"></div>
+        <div class="pointerContainer" id="pointerContainer" style="transform: rotate(0); transition: all 0s;">
+            <div class="daimond-lg pointerHead">
+                <div class="pointerDaimond"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="daimond-lg pointerBody"></div>
+            <div class="Daimond-sm"></div>
+            <div class="daimond"></div>
+            <div class="press">
+                <button class="pressBtn" id="pressBtn">PRESS</button>
+            </div>
+        </div>
+    </div>
+      
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
